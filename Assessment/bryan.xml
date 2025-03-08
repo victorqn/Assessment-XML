@@ -11,7 +11,7 @@
 <!ELEMENT description (#PCDATA)>
 ]>
 <menu>
-    <title>Bryan's Vegetarian Delights</title>
+    <title>Bryan's Cafe</title>
     <category name="Salads">
         <item>
             <name>Beetroot and Feta Salad</name>
