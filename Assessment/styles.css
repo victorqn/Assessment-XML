@@ -1,0 +1,79 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 20px;
+  background-color: #f8f8f8;
+}
+
+menu {
+  display: block;
+  width: 80%;
+  margin: 20px auto;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+menu title {
+  display: block;
+  text-align: center;
+  font-size: 2em;
+  font-family: 'Georgia', serif;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+
+
+category {
+  display: block;
+  margin-bottom: 20px;
+}
+
+category::before {
+  content: attr(name);
+  display: block;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #555;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 5px;
+}
+
+item {
+  display: block;
+  margin-bottom: 15px;
+  padding: 10px;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+item:last-child {
+  border-bottom: none;
+}
+
+name {
+  display: block;
+  font-size: 1.2em;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+price {
+  display: block;
+  font-weight: 500;
+  color: #888;
+  margin-bottom: 5px;
+}
+
+price::before {
+  content: "AU$"; 
+}
+
+description {
+  display: block;
+  color: #666;
+  font-size: 0.9em;
+  line-height: 1.4;
+}

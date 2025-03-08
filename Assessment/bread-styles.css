@@ -1,0 +1,61 @@
+body {
+    font-family: 'Lora', serif; 
+    margin: 20px;
+    background-color: #f5f0e1; 
+}
+
+menu {
+    display: block;
+    width: 70%; 
+    margin: 30px auto;
+    background-color: #fffaf0; 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+}
+
+menu title {
+    display: block;
+    text-align: center;
+    font-size: 2.5em;
+    font-family: 'Great Vibes', cursive; 
+    margin-bottom: 25px;
+    color: #8b4513; 
+}
+
+item {
+    display: block;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-bottom: 2px dashed #e0d0b0; 
+}
+
+item:last-child {
+    border-bottom: none;
+}
+
+name {
+    display: block;
+    font-size: 1.3em;
+    font-weight: 600;
+    color: #4a2d14;
+    margin-bottom: 8px;
+}
+
+price {
+    display: block;
+    font-weight: 500;
+    color: #a0522d; 
+    margin-bottom: 8px;
+}
+
+price::before {
+    content: "AU$";
+}
+
+description {
+    display: block;
+    color: #555;
+    font-size: 1em;
+    line-height: 1.5;
+}

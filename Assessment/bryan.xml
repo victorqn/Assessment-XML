@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="styles.css"?>
+<!DOCTYPE menu [
+<!ELEMENT menu (title, category+)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT category (item+)>
+<!ATTLIST category name CDATA #REQUIRED>
+<!ELEMENT item (name, price, description)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+]>
+<menu>
+    <title>Bryan's Vegetarian Delights</title>
+    <category name="Salads">
+        <item>
+            <name>Beetroot and Feta Salad</name>
+            <price>15.00</price>
+            <description>Suitable for vegetarians, made with fresh beetroot</description>
+        </item>
+    </category>
+    <category name="Sandwiches">
+        <item>
+            <name>Sourdough Rye Sandwich</name>
+            <price>18.00</price>
+            <description>Cheese and salad sandwich made with organic, sourdough rye bread</description>
+        </item>
+    </category>
+    <category name="Pies &amp; Pancakes">
+        <item>
+            <name>Spinach Pie and Salad</name>
+            <price>20.00</price>
+            <description>Tasty pie with salad</description>
+        </item>
+        <item>
+            <name>Feta Pancakes with Salad</name>
+            <price>19.50</price>
+            <description>Tasty pancake filled with feta and salad</description>
+        </item>
+    </category>
+</menu>
