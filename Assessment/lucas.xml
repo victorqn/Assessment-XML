@@ -9,7 +9,7 @@
 <!ELEMENT description (#PCDATA)>
 ]>
 <menu>
-    <title>Lucas's Artisan Breads</title>
+    <title>Lucas's Loaves</title>
     <item>
         <name>Sourdough White</name>
         <price>7.00</price>
